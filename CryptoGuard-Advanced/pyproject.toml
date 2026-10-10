@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cryptoguard"
+version = "1.0.0"
+description = "Educational cryptography, key management, and secure authentication toolkit"
+requires-python = ">=3.10"
+dependencies = ["cryptography>=42.0.0", "bcrypt>=4.1.0"]
+
+[tool.setuptools]
+packages = ["cryptoguard"]
